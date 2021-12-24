@@ -7,10 +7,11 @@
 /* UTILITIES */
 .bg-primary1{
   background-color: blueviolet;
+  z-index: 1000;
 }
 
-.h-95vh{
-  height: 95vh;
+.h-100vh{
+  height: 100vh;
 }
 
 .card1 {
@@ -38,4 +39,5 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4) 0 0 20px rgba(0,0,0,0.6);
 }
